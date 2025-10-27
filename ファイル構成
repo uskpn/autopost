@@ -1,0 +1,16 @@
+short-poster-web/
+├─ .env.local
+├─ package.json
+├─ next.config.js
+├─ tsconfig.json      (TypeScriptで進めるなら)
+├─ /utils
+│   └─ supabaseClient.ts
+├─ /pages
+│   ├─ api
+│   │   ├─ oauth
+│   │   │   ├─ start.ts
+│   │   │   └─ callback.ts
+│   └─ index.tsx
+├─ /components
+│   └─ Navbar.tsx
+└─ README.md
